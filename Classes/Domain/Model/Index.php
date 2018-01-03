@@ -167,17 +167,15 @@ class Index
         } else {
             $path = '/' . $path;
         }
-
         return $this->client->request($method, $path, $arguments, $content);
     }
 
     /**
-     * @param array $arguments
      * @return void
      */
-    public function create(array $arguments = [])
+    public function create()
     {
-        $this->request('PUT', null, $arguments, json_encode($this->getSettings()));
+        $this->request('PUT', null, [], json_encode($this->getSettings()));
     }
 
     /**
