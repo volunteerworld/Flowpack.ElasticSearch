@@ -10,7 +10,7 @@
         "doctrine/collections": "^1.0",
         "doctrine/orm": "^2.0",
         "neos/error-messages": "^4.0",
-        "neos/flow": "^4.0",
+        "neos/flow": "^5.0",
         "neos/utility-arrays": "^4.0",
         "neos/utility-objecthandling": "^4.0"
     },
